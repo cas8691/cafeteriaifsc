@@ -1,38 +1,81 @@
-body{
-    background-color:cadetblue;
+
+:root{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: cadetblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div{
-    border:2px solid black;
+
+div {
+    border: 2px solid black;
     /*margem intenra*/
-    padding:50px;
+    padding: 50px;
 }
 
+h1 {
+    text-align: center;
+}
 
 /* chama div com class */
-.topo{
+.topo {
     background-color: brown;
     border-radius: 25px;
     text-align: center;
 }
-.nav{
-    background-color: #bb9457;
+
+.nav {
+    background-color: #e18c03;
     border-radius: 25px;
     display: flex;
+    font-size: larger;
     justify-content: space-around;
 }
-.principal{
+
+.principal {
     background-color: #743f27;
     border-radius: 25px;
+    color: antiquewhite;
     text-align: center;
 }
-.rodape{
+
+.rodape {
     background-color: #003566;
     border-radius: 25px;
+    color: antiquewhite;
     text-align: center;
 }
-.contanier{
+
+.cardapio {
+    background-color: rgb(111, 110, 104);
+    border-radius: 25px;
+    color: antiquewhite; 
+    text-align: justify;
+}
+
+.contanier {
     max-width: 900px;
-    margin:auto;  /*centraliza tela*/
-    padding: 150;
+    margin: auto;
+    /*centraliza tela*/
+    padding: 150px;
+
+}
+
+/* tabela */
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+
 }
